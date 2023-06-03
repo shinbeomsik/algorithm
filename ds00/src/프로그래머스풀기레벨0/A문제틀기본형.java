@@ -2,7 +2,7 @@
 package 프로그래머스풀기레벨0;
 import java.util.*;
 
-public class 문제틀기본형 {
+public class A문제틀기본형 {
 
 	public static void main(String[] args) {
 		Solution sol = new Solution();
