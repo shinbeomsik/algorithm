@@ -1,7 +1,6 @@
 
 package 프로그래머스풀기레벨1;
 
-import java.util.*;
 
 public class 문제틀기본형 {
 
