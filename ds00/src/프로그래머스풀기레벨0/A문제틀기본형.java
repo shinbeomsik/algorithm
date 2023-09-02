@@ -11,7 +11,7 @@ public class A문제틀기본형 {
 		System.out.println(answer);
 
 	}
-}
+}  
 
 class Solution {
 	public int solution(int angle) {
