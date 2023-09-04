@@ -17,7 +17,6 @@ public class 공백으로구분하기2 {
 class Solution51 {
 	  public String[] solution(String my_string) {
 	        String[] answer = {};
-	        Math.pow(a, b);
  	        return answer;
 	    }
 }
