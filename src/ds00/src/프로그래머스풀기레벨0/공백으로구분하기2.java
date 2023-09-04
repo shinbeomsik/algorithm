@@ -1,21 +1,23 @@
 
 package 프로그래머스풀기레벨0;
 
+import java.util.Arrays;
+
 public class 공백으로구분하기2 {
 
 	public static void main(String[] args) {
-		Solution50 sol = new Solution50();
-		int angle = 70;
+		Solution51 sol = new Solution51();
+		String my_string = " i    love  you";
 
-		int answer = sol.solution(angle);
+		String[] answer = sol.solution(my_string);
 		System.out.println(answer);
-
 	}
 }
 
-class Solution50 {
-	public int solution(int angle) {
-		int answer = 0;
-		return answer;
-	}
+class Solution51 {
+	  public String[] solution(String my_string) {
+	        String[] answer = {};
+	        Math.pow(a, b);
+ 	        return answer;
+	    }
 }
