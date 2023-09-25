@@ -19,7 +19,7 @@ class Solution145 {
 	        
 	        while(chicken > 9) {
 	        	answer = answer + chicken/10;
-	        	
+	        	 
 	        	int service = chicken/10;
 	        	int leftcoupon = chicken%10;
 	        	chicken = leftcoupon + service;
