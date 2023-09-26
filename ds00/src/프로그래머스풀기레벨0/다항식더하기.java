@@ -6,7 +6,7 @@ public class 다항식더하기 {
 
 	public static void main(String[] args) {
 		Solution149 sol = new Solution149();
-		String polynomial = "1 + 3 + 5";
+		String polynomial = "55x + x + 55x + 1 + 2x + 3x";
 
 		String answer = sol.solution(polynomial);
 		System.out.println(answer);
@@ -21,19 +21,20 @@ class Solution149 {
 
 		List<String> xarr = new ArrayList<>();
 		List<String> intarr = new ArrayList<>();
+		
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i].contains("x")) {
 				xarr.add(arr[i]);
 			} else if (arr[i].equals("+")) {
-
+				
 			} else {
 				intarr.add(arr[i]);
 			}
 		}
 		int xcount = 0;
 		for (int i = 0; i < xarr.size(); i++) {
-			if (xarr.get(i).length() > 1) {
-				xcount = xcount + Integer.parseInt(xarr.get(i).substring(0, xarr.get(0).length() - 1));
+			if (xarr.get(i).length() != 1) {
+				xcount = xcount + Integer.parseInt(xarr.get(i).substring(0, xarr.get(i).length() - 1));
 			} else {
 				xcount = xcount + 1;
 			}
