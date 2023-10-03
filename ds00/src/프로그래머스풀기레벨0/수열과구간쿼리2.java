@@ -6,8 +6,8 @@ public class 수열과구간쿼리2 {
 
 	public static void main(String[] args) {
 		Solution165 sol = new Solution165();
-		int[] arr = { 9, 7, 8 };
-		int[][] queries = { { 0, 2, 10 }, { 0, 2, 3 } };
+		int[] arr = {0, 1, 2, 4, 3};
+		int[][] queries = {{0, 4, 2},{0, 3, 2},{0, 2, 2}};
 
 		int[] answer = sol.solution(arr, queries);
 		System.out.println(Arrays.toString(answer));
@@ -25,10 +25,11 @@ class Solution165 {
 				if (arr[j] > queries[i][2]) {
 					brr.add(arr[j]);
 					Collections.sort(brr);
-					answer[i] = brr.get(0).intValue();
-					System.out.println("<" + i + "><" + j + ">" + brr);
 				} else {
 					answer[i] = -1;
+				}
+				if(brr.size() !=0) {
+				answer[i] = brr.get(0).intValue();
 				}
 			}
 		}

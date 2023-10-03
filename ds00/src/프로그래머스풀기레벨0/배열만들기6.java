@@ -6,7 +6,7 @@ public class 배열만들기6 {
 
 	public static void main(String[] args) {
 		Solution164 sol = new Solution164();
-		int[] arr = { 1, 1,1, 1, 1 };
+		int[] arr = {0,1,0,0};
 
 		int[] answer = sol.solution(arr);
 		System.out.println(Arrays.toString(answer));
@@ -25,7 +25,7 @@ class Solution164 {
 				count++;
 			} else {
 				if (brr.get(brr.size() - 1) == arr[count]) {
-					brr.remove(brr.get(brr.size() - 1));
+					brr.remove(brr.size() - 1);
 					count++;
 				}else {
 					brr.add(arr[count]);
