@@ -40,3 +40,25 @@ class Solution170 {
 	        }
 	    }
 }
+
+//재귀 함수로 유클리드 호제법
+//int GCD(int a, int b) {
+//    if (b == 0) {
+//        return a;
+//    } else {
+//        return GCD(b, a % b);
+//    }
+//}
+
+//반복문으로 유클리드 호제법
+//int GCD(int a, int b)
+//{
+//    int c;
+//    
+//    while(b) {
+//        c = a % b;
+//        a = b;
+//        b = c;
+//    }
+//    return a;
+//}

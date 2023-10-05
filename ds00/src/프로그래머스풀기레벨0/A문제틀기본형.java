@@ -1,5 +1,5 @@
-
 package 프로그래머스풀기레벨0;
+
 
 public class A문제틀기본형 {
 
