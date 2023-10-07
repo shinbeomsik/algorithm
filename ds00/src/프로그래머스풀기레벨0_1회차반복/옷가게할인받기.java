@@ -7,10 +7,11 @@ public class 옷가게할인받기 {
 	public static void main(String[] args) {
 		Solution35 sol = new Solution35();
 		int price = 70;
-
+		
 		int answer = sol.solution(price);
 		System.out.println(answer);
-
+		
+		
 	}
 }
 
