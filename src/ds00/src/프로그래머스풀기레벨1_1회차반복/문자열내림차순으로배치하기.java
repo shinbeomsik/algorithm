@@ -8,7 +8,6 @@ public class 문자열내림차순으로배치하기 {
 		Solution32 sol = new Solution32();
 		String s= "";
 		long a = 0;
-		a = Long.parseLong(s)
 		String answer = sol.solution(s);
 		System.out.println(answer);
 

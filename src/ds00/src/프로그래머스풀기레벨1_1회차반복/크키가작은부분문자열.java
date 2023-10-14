@@ -7,7 +7,8 @@ public class 크키가작은부분문자열 {
 		Solution33 sol = new Solution33();
 		String t = ""; 
 		String p = "";
-
+		
+		char k = 'k';
 		int answer = sol.solution(t, p);
 		System.out.println(answer);
 
