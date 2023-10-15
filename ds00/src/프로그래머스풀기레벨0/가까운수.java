@@ -5,7 +5,7 @@ public class 가까운수 {
 
 	public static void main(String[] args) {
 		Solution107 sol = new Solution107();
-		int[] array = {3,10, 28 ,21 ,14};
+		int[] array = {3,10, 28 ,21 ,14,19};
 		int n = 20;
 
 		int answer = sol.solution(array, n);
@@ -21,7 +21,8 @@ class Solution107 {
             int temp = array[ i ];
             int fix = Math.abs( answer - n );
             int curr = Math.abs( temp - n );
-
+            	
+           System.out.println(fix + "<>" + curr);
             if ( fix > curr || ( fix == curr && answer > temp ) ) {
             	answer = temp;
             }
