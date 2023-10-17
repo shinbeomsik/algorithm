@@ -41,6 +41,8 @@ class Solution45 {
  	        		arr.add(i+1);
  	        	}
  	        }
+ 	        
+ 	        
  	        int[] answer = new int[arr.size()];
  	        for(int i=0;i<arr.size();i++) {
  	        	answer[i] = arr.get(i);
