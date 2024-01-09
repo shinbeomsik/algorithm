@@ -28,12 +28,14 @@ class Solution64 {
 }
 
 
-/*  이건 가능하긴 해도 속도에서 실패함 
- * class Solution { public String[] solution(String[] players, String[]
- * callings) { String[] answer = players;
+
+/*
+ * 이건 가능하긴 해도 속도에서 실패함 class Solution { public String[] solution(String[]
+ * players, String[] callings) { String[] answer = players;
  * 
  * for (int i = 0; i < callings.length; i++) { for (int j = 0; j <
  * players.length; j++) { if (callings[i].equals(players[j])) { String a =
  * players[j - 1]; players[j - 1] = players[j]; players[j] = a; break; } } }
  * return answer; } }
  */
+ 

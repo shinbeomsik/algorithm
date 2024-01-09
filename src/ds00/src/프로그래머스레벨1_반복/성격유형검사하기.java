@@ -8,7 +8,6 @@ public class 성격유형검사하기 {
 class Solution65 {
     public String solution(String[] survey, int[] choices) {
         String answer = "";
-        int[] count = new int[8];
         int Rcount =0;
         int Tcount =0;
         int Ccount =0;
