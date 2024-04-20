@@ -1,4 +1,4 @@
-package 프로그래머스레벨1_반복2;
+package 프로그래머스레벨1_반복4;
 
 
 public class Z문제틀기본형 {
