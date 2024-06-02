@@ -6,21 +6,27 @@ public class 올바른괄호 {
 }
 
 class Solution4 {
-	boolean solution(String s) {
-        boolean answer = true;
-        int chk = 0; 
-        for(int i=0;i<s.length();i++){ 
-            if(s.charAt(i)=='(') chk++;
-            else chk--;
+	 boolean solution(String s) {
+	        boolean answer = true;
+	        
+	        int count =0;
 
-            if(chk<0) return false;
-        } 
-
-        if( chk!=0 || s.length()==0)
-            answer = false;
-
-        return answer;
-    }
+	        for(int i=0;i<s.length(); i++){
+	            if(s.charAt(i) == '('){
+	                count++;
+	            }else{
+	                count--;
+	            }
+	            if(count < 0){
+	                return false;
+	            }
+	        }
+	        
+	        if(count != 0){
+	            answer = false;
+	        }
+	        return answer;
+	    }
 }
 
 /* 이코드는 호율성 테스트 2번만 통과가 안됨 어찌해야될지 모르겠음
