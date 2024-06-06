@@ -6,19 +6,24 @@ public class 피보나치수 {
 }
 
 class Solution9 {
-	  public int solution(int n) {
-	        int answer = 0;
-	        long k_2 =0;
-	        long k_1 =1;
-	        long k = k_2 + k_1;
-	        int count =2;
-	        while(count != n){
-	            k_2 = k_1 %1234567;
-	            k_1 = k %1234567;
-	            k = k_2 + k_1;
-	            count++;; 
-	        }
-	        answer = (int)k;
-	        return answer;
-	    }
+	public int solution(int n) {
+        int answer = 0;
+        long a = 0;
+        long b = 1;
+        long c = a+b;
+        int count =1;
+        
+        while(count != n){
+            c = a + b;
+            
+            a = b%1234567;
+            
+            b = c%1234567;
+            
+            count++;
+
+        }
+        answer = (int)c%1234567;
+        return answer;
+    }
 }
