@@ -1,4 +1,4 @@
-package 프로그래머스풀기레벨1_1회차반복;
+package 프로그래머스풀기레벨1_;
 
 import java.util.*;
 public class 두개뽑아서더하기 {

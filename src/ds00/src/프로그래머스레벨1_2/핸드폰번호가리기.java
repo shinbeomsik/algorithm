@@ -1,4 +1,4 @@
-package 프로그래머스레벨1_반복2;
+package 프로그래머스레벨1_2;
 
 
 public class 핸드폰번호가리기 {

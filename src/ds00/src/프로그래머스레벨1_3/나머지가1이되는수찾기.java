@@ -1,4 +1,4 @@
-package 프로그래머스레벨1_반복3;
+package 프로그래머스레벨1_3;
 
 
 public class 나머지가1이되는수찾기 {

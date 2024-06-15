@@ -1,4 +1,4 @@
-package 프로그래머스풀기레벨1_1회차반복;
+package 프로그래머스풀기레벨1_;
 
 
 public class 크키가작은부분문자열 {

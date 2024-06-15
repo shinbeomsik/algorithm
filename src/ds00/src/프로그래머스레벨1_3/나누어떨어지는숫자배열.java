@@ -1,4 +1,4 @@
-package 프로그래머스레벨1_반복3;
+package 프로그래머스레벨1_3;
 import java.util.*;
 
 public class 나누어떨어지는숫자배열 {

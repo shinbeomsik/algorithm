@@ -1,4 +1,4 @@
-package 프로그래머스레벨1_반복2;
+package 프로그래머스레벨1_2;
 import java.util.regex.*;
 
 public class 신규아이디추천 {

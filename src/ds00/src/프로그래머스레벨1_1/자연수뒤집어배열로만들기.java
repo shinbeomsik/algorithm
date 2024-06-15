@@ -1,4 +1,4 @@
-package 프로그래머스레벨1_반복;
+package 프로그래머스레벨1_1;
 
 
 public class 자연수뒤집어배열로만들기 {

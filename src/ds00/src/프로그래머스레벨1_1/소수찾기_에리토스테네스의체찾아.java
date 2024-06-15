@@ -1,4 +1,4 @@
-package 프로그래머스레벨1_반복;
+package 프로그래머스레벨1_1;
 
 
 public class 소수찾기_에리토스테네스의체찾아 {

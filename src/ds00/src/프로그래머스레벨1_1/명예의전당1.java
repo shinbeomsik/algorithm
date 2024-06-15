@@ -1,4 +1,4 @@
-package 프로그래머스레벨1_반복;
+package 프로그래머스레벨1_1;
 import java.util.*;
 
 public class 명예의전당1 {

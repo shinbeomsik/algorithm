@@ -1,4 +1,4 @@
-package 프로그래머스레벨1_반복3;
+package 프로그래머스레벨1_3;
 import java.util.*;
 
 public class 문자열내마음대로정렬하기 {
