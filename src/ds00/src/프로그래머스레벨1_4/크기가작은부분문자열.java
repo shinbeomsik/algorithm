@@ -1,4 +1,4 @@
-package 프로그래머스레벨1_반복4;
+package 프로그래머스레벨1_4;
 
 
 public class 크기가작은부분문자열 {

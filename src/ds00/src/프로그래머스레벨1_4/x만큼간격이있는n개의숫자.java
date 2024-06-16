@@ -1,4 +1,4 @@
-package 프로그래머스레벨1_반복4;
+package 프로그래머스레벨1_4;
 
 
 public class x만큼간격이있는n개의숫자 {

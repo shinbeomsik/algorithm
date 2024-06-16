@@ -1,4 +1,4 @@
-package 프로그래머스풀기레벨2_반복;
+package 프로그래머스풀기레벨2_1;
 
 import java.util.*;
 public class 짝지어제거하기 {

@@ -1,4 +1,4 @@
-package 프로그래머스레벨1_반복4;
+package 프로그래머스레벨1_4;
 
 
 public class 최대공약수와최소공배수 {

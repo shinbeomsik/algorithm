@@ -1,4 +1,4 @@
-package 프로그래머스풀기레벨2_반복;
+package 프로그래머스풀기레벨2_1;
 
 
 public class 점프와순간이동 {
